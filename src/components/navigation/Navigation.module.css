@@ -1,0 +1,12 @@
+.nav{
+    margin-right: 10px;
+    color: black;
+}
+.navActive{
+    margin-right: 10px;
+    color: brown;
+}
+nav{
+    height: 30px;
+    background-color: blueviolet;
+}
