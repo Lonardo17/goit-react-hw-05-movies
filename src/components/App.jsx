@@ -26,7 +26,7 @@ export const App = () => {
       <Navigation/>
       <Suspense fallback={<div>Loading please wait ¯\_(ツ)_/¯ </div>}>
         <Routes>
-          <Route path={home} element={<Home />}></Route>
+          <Route exact path={home} element={<Home/>}></Route>
           <Route path={movies} element={<Movies />} />
           <Route path={`${movies}/${movieId}`} element={<MoviesById />}>
             <Route path={cast} element={<Cast />} />
